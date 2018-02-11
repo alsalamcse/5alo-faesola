@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abd.mh.hayamuhammedfinal.MainActivity">
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="370dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/btButton"
+        android:layout_width="202dp"
+        android:layout_height="45dp"
+        android:text="Sign in"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/btSignup"
+        android:layout_width="201dp"
+        android:layout_height="47dp"
+        android:text="SignUp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="173dp" />
+</android.support.constraint.ConstraintLayout>
