@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText etPhone ;
     private Button  btSignin ;
     private Button btSignup ;
+    private  FirebaseAuth auth ;
+    private
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,9 +30,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private  void dataHandler ( ) {
-        String
+
+        String etPhone = etPhone.getText().toString();
+        boolean isOk = true;
+        if (etPhone.length() == 0 || etPhone.length() < 10 ||etPhone.length() >10 ) {
+            etPhone.setError("WRONG PHONE");
+            isOk = false;
     }
+      if (isOk) {
+
+      }
+
+    @Override
+    public void onClick(View view) {
 
 
 
+    }
 }
