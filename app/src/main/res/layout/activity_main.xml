@@ -6,28 +6,36 @@
     android:layout_height="match_parent"
     tools:context="abd.mh.hayamuhammedfinal.MainActivity">
 
+    <Button
+        android:id="@+id/btButton"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="70dp" />
+
     <EditText
         android:id="@+id/etPhone"
-        android:layout_width="370dp"
-        android:layout_height="42dp"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="phone"
         tools:layout_editor_absoluteX="10dp"
         tools:layout_editor_absoluteY="28dp" />
 
-    <Button
-        android:id="@+id/btButton"
-        android:layout_width="202dp"
-        android:layout_height="45dp"
-        android:text="Sign in"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="70dp" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/btSignup"
         android:layout_width="201dp"
-        android:layout_height="47dp"
+        android:layout_height="wrap_content"
         android:text="SignUp"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="173dp" />
+
 </LinearLayout>
